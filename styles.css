@@ -1,0 +1,46 @@
+.container {
+    border: 2px solid black;
+    display: grid;
+    /*So, there are two columns, and three rows. I don't have anything that can go there
+    *so its just blank space
+    */
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 25px 25px 50px;
+}
+
+.container2 {
+    display: grid;
+    /*Like above only now there is stuff in the third row*/
+    grid-template-columns: 50px 50px;
+    grid-template-rows: 25px 25px 50px;
+}
+
+.container3 {
+    display: grid;
+    /*One row, and then four columns. */
+    grid-template: 50px / 80px 70px 100px 600px;
+}
+
+.red {
+    background: red;
+}
+
+.yellow {
+    background: yellow;
+}
+
+.blue {
+    background: blue;
+}
+
+.green {
+    background: green;
+}
+
+.pink {
+    background: pink;
+}
+
+.orange {
+    background: orange;
+}
